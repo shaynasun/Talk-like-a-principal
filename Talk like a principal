@@ -1,0 +1,50 @@
+print("====PRINCIPAL STORY====")
+
+def nounWord():
+    print("enter nouns")
+    nounWords=[]
+
+    for n in range(5):
+        input1=input("{}".format(n+1))
+        nounWords.append(input1)
+
+
+    return nounWords
+
+
+
+def verbword():
+    print("enter verbs")
+    verbwords = []
+
+
+  for n in range(5):
+        input1=input("{}".format(n+1))
+        verbword.append(input1)
+
+  retrun verbword      
+
+
+
+  def adjwords
+      print("enter adjectives")
+      adjbwords = []
+
+
+  for n in range(5):
+        input1=input("{}".format(n+1))
+        adjword.append(input1)
+
+  retrun adjword
+        
+
+
+nounwords1 = nounWord()
+verbwords1 = verbword()
+adjwords1 = adjword()
+
+
+
+principalstory="Good morning"+nounwords1[0]+".I would like to "+verbwords1[2]+"all"+ajwords1[3]+"prefects"
+
+print(principlestory)
